@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-	int result = 1 +2; // 1 + 2 = 3
+        int result = 1 + 2; // 1 + 2 = 3
         System.out.println("1 + 2 = " + result);
         int previousResult = result;
         System.out.println("previousResult = " + previousResult);
@@ -39,5 +39,12 @@ public class Main {
         // result = result / 3
         result /= 3; // 30 / 3 = 10
         System.out.println("30 / 3 = " + result);
+
+
+        boolean isAlien = false;
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+        }
     }
 }
