@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+
         int result = 1 + 2; // 1 + 2 = 3
         System.out.println("1 + 2 = " + result);
         int previousResult = result;
@@ -51,9 +53,25 @@ public class Main {
             System.out.println("You got the high score!");
         }
 
-        int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore < 100) {
+
+        int secondTopScore = 95;
+//        && basically means and
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100");
+        }
+//       || basically mean or
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the condition are ture");
+
+
+            int newValue = 50;
+            if (newValue == 50) ;
+            System.out.println("This is an error!");
+        }
+
+        boolean isCar = false;
+        if (!isCar) {
+            System.out.println("This is not supposed to happen.");
         }
     }
 }
